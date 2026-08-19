@@ -1,0 +1,9 @@
+{
+  "name": "crosspost-app",
+  "private": true,
+  "workspaces": ["apps/*"],
+  "scripts": {
+    "api": "npm run dev -w @crosspost/api",
+    "mobile": "npm run start -w @crosspost/mobile"
+  }
+}
